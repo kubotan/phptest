@@ -1,7 +1,1 @@
-<?php
-use Acme\Hoge;
-
-class Fuga
-{
-    // ~ anything ~
-}
+<?php use Acme\Hoge;class Fuga{ // ~ anything ~ }
