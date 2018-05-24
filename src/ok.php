@@ -5,4 +5,3 @@ class Fuga {
     // @codingStandardsIgnoreEnd
     //~ anything ~
 }
-?>
