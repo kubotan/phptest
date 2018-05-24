@@ -5,4 +5,6 @@ php:
 script:
   - composer global require "squizlabs/php_codesniffer=*"
   - ./vendor/bin/phpcs -h
+  - ~/.composer/vendor/bin/phpcs -h
+  - phpcs -i
   - ./vendor/bin/phpcbf ./
