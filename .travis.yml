@@ -5,7 +5,7 @@ php:
 script:
   - composer global require "squizlabs/php_codesniffer=*"
   - composer global require "cakephp/cakephp-codesniffer"
-  - cd ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/
+  - cd ~/.composer/vendor/squizlabs/php_codesniffer/src/Standards/
   - ln -s ~/.composer/vendor/cakephp/cakephp-codesniffer/CakePHP/ CakePHP
-  - ~/.composer/vendor/bin/phpcs --standard=CakePHP 
-  - ~/.composer/vendor/bin/phpcbf ./
+  - ~/.composer/vendor/bin/phpcs --standard=CakePHP
+  - ~/.composer/vendor/bin/phpcbf ~/
