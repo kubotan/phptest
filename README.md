@@ -1,5 +1,5 @@
-# travis ciによるPHPとコーディング規約自動テストページ
-- 下記のバッチのbuildがpassとなっていればコーディング規約は問題ない
+# travis ciによるPHPとCakePHPコーディング規約自動テストページ
+- 下記のバッチのbuildがpassingとなっていればコーディング規約は問題ない
 
 [![GitHub release](https://img.shields.io/github/release/kubotan/phptest.svg)](https://github.com/kubotan/phptest/releases)
 [![Build Status]( https://travis-ci.org/kubotan/phptest.svg?branch=master)](https://travis-ci.org/kubotan/phptest)
