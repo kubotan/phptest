@@ -4,5 +4,6 @@ php:
 
 script:
   - composer global require "squizlabs/php_codesniffer=*"
+  - composer global require "cakephp/cakephp-codesniffer"
   - ~/.composer/vendor/bin/phpcs -i
   - ~/.composer/vendor/bin/phpcbf ./
