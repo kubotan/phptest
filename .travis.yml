@@ -8,3 +8,16 @@ script:
   - ~/.composer/vendor/bin/phpcs --config-set installed_paths ~/.composer/vendor/cakephp/cakephp-codesniffer
   - ~/.composer/vendor/bin/phpcs --config-set default_standard CakePHP
   - ~/.composer/vendor/bin/phpcs --report=diff ~/build/kubotan/phptest/src/
+
+notifications:
+  #slack:
+  #  rooms:
+  #     動作させる場合は以下のaccountとtokenとchannelを指定する
+  #    - <account>:<token>#channel
+  #  on_success: never
+  #  on_failure: always
+  #email:
+  #  recipients:
+  #    - admin@gorogoro.space
+  #  on_success: never
+  #  on_failure: always
