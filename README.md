@@ -1,4 +1,4 @@
-# travis ciによるPHPとCakePHPコーディング規約自動テストページ
+# travis ciによるCakePHPコーディング規約自動テストの試行ページ
 - 下記のバッチのbuildがpassingとなっていればコーディング規約は問題ない。failingの場合は、参考例の様に改行入れろ！！的なdiffが表示される。
 
 [![GitHub release](https://img.shields.io/github/release/kubotan/phptest.svg)](https://github.com/kubotan/phptest/releases)
