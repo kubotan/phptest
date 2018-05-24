@@ -1,4 +1,4 @@
-# Bungeen
+# PHPとtravis ciのテスト
 [![GitHub release](https://img.shields.io/github/release/kubotan/phptest.svg)](https://github.com/kubotan/phptest/releases)
 [![Build Status]( https://travis-ci.org/kubotan/phptest.svg?branch=master)](https://travis-ci.org/kubotan/phptest)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/kubotan/phptest/issues)
