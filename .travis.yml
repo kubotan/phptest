@@ -6,4 +6,4 @@ script:
   - wget https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
   - wget https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar
   - php phpcs.phar -h
-  - php phpcbf kubotan/phptest/
+  - php phpcbf.phar kubotan/phptest/
